@@ -1,3 +1,18 @@
+/*
+ *
+ * Joey Sheridan
+ * 2290839
+ * OS Assignment 1
+ * filecpy()
+ *
+ * To run, compile filecpu() with gcc and then run the following command :
+ * ./a.out source.txt destination.txt
+ *
+ */
+
+
+
+
 #include <stdio.h>
 
 //Allows for multiple arguments to be passed and stored in argv[]
