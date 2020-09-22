@@ -38,11 +38,11 @@ int main(int argc, char *argv[])
 
    }
 
-   //Opens the destination file
+   //Opens the destination file with writting permissions
    destination = fopen(argv[2], "w");
 
    //While the end of the file has not yet been reached , copy the next character to variable ch
-   //then, put ch into ptr2(destination) with putc
+   //then, put ch into destination with putc
    while( !feof(source))
    {
       ch = getc(source);
